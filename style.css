@@ -1,0 +1,190 @@
+body {
+  background-color: white;
+  background-image: url("logo.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100%;
+  min-width: 100%;
+}
+.flex-container {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icon-link {
+  width: 100px;
+  height: 100px;
+  background-color: #666;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.icon-link.fill.facebook {
+  background-color: #3b5998;
+}
+.icon-link.fill.facebook:hover {
+  background-color: #fff;
+}
+.icon-link.fill.facebook:hover .fa-facebook {
+  color: #3b5998;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link.fill.twitter {
+  background-color: #00aced;
+}
+.icon-link.fill.twitter:hover {
+  background-color: #fff;
+}
+.icon-link.fill.twitter:hover .fa-twitter {
+  color: #00aced;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link.fill.youtube {
+  background-color: #df1c31;
+}
+.icon-link.fill.youtube:hover {
+  background-color: #fff;
+}
+.icon-link.fill.youtube:hover .fa-youtube {
+  color: #df1c31;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link.fill.envelope {
+  background-color: #333;
+}
+.icon-link.fill.envelope:hover {
+  background-color: #fff;
+}
+.icon-link.fill.envelope:hover .fa-envelope {
+  color: #333;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link.fill.spotify {
+  background-color: #1db954;
+}
+.icon-link.fill.spotify:hover {
+  background-color: #fff;
+}
+.icon-link.fill.spotify:hover .fa-spotify {
+  color: #1db954;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link.fill.instagram {
+  background-color: #c13584;
+}
+.icon-link.fill.instagram:hover {
+  background-color: #fff;
+}
+.icon-link.fill.instagram:hover .fa-instagram {
+  color: #c13584;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link.brand {
+  background-color: #fff;
+}
+.icon-link.brand .fa {
+  color: #006fc2;
+}
+.icon-link.round {
+  border-radius: 50%;
+}
+.icon-link.round-corner {
+  border-radius: 5px;
+}
+.icon-link:hover {
+  -webkit-transition: background-color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out;
+  height: 96px;
+  line-height: 96px;
+  width: 96px;
+  background-color: #fff;
+}
+.icon-link:hover.facebook {
+  border: 2px solid #3b5998;
+}
+.icon-link:hover.twitter {
+  border: 2px solid #00aced;
+}
+.icon-link:hover.youtube {
+  border: 2px solid #df1c31;
+}
+.icon-link:hover.envelope {
+  border: 2px solid #333;
+}
+.icon-link:hover.spotify {
+  border: 2px solid #1db954;
+}
+.icon-link:hover.instagram {
+  border: 2px solid #c13584;
+}
+.icon-link:hover .fa {
+  line-height: 96px;
+}
+.icon-link:hover .fa-facebook {
+  color: #3b5998;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link:hover .fa-twitter {
+  color: #00aced;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link:hover .fa-youtube {
+  color: #df1c31;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link:hover .fa-envelope {
+  color: #333;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link:hover .fa-spotify {
+  color: #1db954;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link:hover .fa-instagram {
+  color: #c13584;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link .fa {
+  color: #fff;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+.brand-icons {
+  background-color: #ddd;
+  padding: 10px 0;
+}
